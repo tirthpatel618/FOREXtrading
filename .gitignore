@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# OANDA API secrets
+oanda.cfg
+
 # Distribution / packaging
 .Python
 build/
