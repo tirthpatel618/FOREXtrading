@@ -27,4 +27,4 @@ class SimpleContrarianTest(Vectorized.Vectorized):
         # Absolute performance of strategy and out/under-performance of strategy
         performance = df['Strategy Cumulative Returns'].iloc[-1]
         outperformance = df['Standard Cumulative Returns'].iloc[-1]
-        return round(performance, 6), round(outperformance, 6)
+        return round(performance, 5), round(outperformance, 5)

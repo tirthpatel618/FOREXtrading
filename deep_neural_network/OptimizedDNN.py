@@ -47,6 +47,6 @@ def create_keras_model(hl=3, hu=50, dropout=False, rate=0.3, regularize=False,
                        reg=l1(0.0005), input_dim=None):
     return KerasClassifier(build_fn=create_model,
                            hl=hl, hu=hu, dropout=dropout, rate=rate, regularize=regularize,
-                           reg=reg, input_dim=input_dim, epochs=150, batch_size=32, verbose=0)
+                           reg=reg, input_dim=input_dim, epochs=250, batch_size=32, verbose=0)
 
 
